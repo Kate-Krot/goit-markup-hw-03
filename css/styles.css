@@ -23,10 +23,16 @@ p, h1, h2, h3, {
 padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
+
 .header {
-padding-top: 24px;
-padding-bottom: 24px;
+  width: 100%;
+  padding: 24px 0;
+  border-bottom: 1px solid #e7e9fc;
+  
 }
 
 
@@ -38,45 +44,52 @@ padding-bottom: 24px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px; /* Відступ справа від логотипа */
   
 }
 
-.logospan {
-  color: #2e2f42; 
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
-.navlink {
+.nav-item {
+  padding: 24px 0;
+}
+
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-decoration: none;
   margin-left: 20px;
 }
 
-.navlink:hover,
-.navlink:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
-/* Стилі для контактної інформації */
-.contact-info  {
-  font-style: normal;
+/* Контактна інформація */
+.contact-info {
+  display: flex;
+  gap: 40px;
 }
 
-.contactlink {
+.contact-item {
+  margin-right: 20px; /* Відступ між елементами контакту */
+}
+
+.contact-link {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
-  text-decoration: none;
-  margin-right: 20px;
-  display: flex;
 }
 
-.contactlink:hover,
-.contactlink:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 
