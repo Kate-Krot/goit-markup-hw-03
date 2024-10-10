@@ -9,6 +9,24 @@ a {
 }
 ul {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+p, h1, h2, h3, {
+  margin-top: 0;
+  margin-bottom: 0; 
+}
+
+.container {
+  width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+}
+.header {
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 
@@ -81,6 +99,7 @@ address {
   letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
+  margin-bottom: 48px;
 }
 
 /* Стилі для кнопки */
@@ -106,6 +125,8 @@ address {
 .strategy-section {
   padding: 40px 20px;
   background-color: #ffffff;
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 .section-title {
