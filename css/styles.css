@@ -63,7 +63,6 @@ padding-bottom: 24px;
 /* Стилі для контактної інформації */
 .contact-info  {
   font-style: normal;
-  display: flex;
 }
 
 .contactlink {
@@ -73,6 +72,7 @@ padding-bottom: 24px;
   color: #434455;
   text-decoration: none;
   margin-right: 20px;
+  display: flex;
 }
 
 .contactlink:hover,
