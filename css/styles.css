@@ -63,6 +63,7 @@ padding-bottom: 24px;
 /* Стилі для контактної інформації */
 .contact-info  {
   font-style: normal;
+  display: flex;
 }
 
 .contactlink {
@@ -214,7 +215,6 @@ address {
 
 /* Четверта секція */
 .portfolio-section {
-  background-color: #F4F4FD;
   padding: 40px 20px;
 }
 
