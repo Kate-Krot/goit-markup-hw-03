@@ -129,16 +129,10 @@ address {
   padding-top: 120px;
 }
 
-.section-title {
-  font-size: 28px;
-  font-weight: 700;
-  color: #2e2f42;
-  margin-bottom: 20px;
-  text-align: center;
-}
 
 /* Список стратегії */
 .strategy-list {
+  display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -154,7 +148,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 /* Стилі параграфів у списку */
