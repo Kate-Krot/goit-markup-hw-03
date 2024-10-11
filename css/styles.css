@@ -172,36 +172,21 @@ address {
 
 /* Друга секція */
 .strategy-section {
-  padding: 120px 0;
+  padding: 40px 20px;
   background-color: #ffffff;
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 
-.strategy-section .container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-/* Прихований заголовок */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
 
 /* Список стратегії */
 .strategy-list {
   display: flex;
   gap: 24px;
 }
-
 .strategyli {
   flex-basis: calc((100% - 72px) / 4);
+
 }
 
 /* Стилі заголовків у списку */
@@ -223,18 +208,17 @@ address {
 }
 
 /* Третя секція */
+/* Третя секція */
 .team-section {
   background-color: #f4f4fd;
-  padding: 120px 0;
+  
 }
 
-.team-section .container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
+.team-section-ul {
+display: flex;
+gap: 24px;
 }
 
-/* Заголовок секції */
 .headertwo {
   font-weight: 700;
   font-size: 36px;
@@ -243,37 +227,28 @@ address {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 72px;
 }
 
 /* Список команди */
 .team-list {
   list-style: none;
   padding: 0;
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 24px;
 }
 
 /* Пункти списку */
 .team-item {
   background-color: #ffffff;
   padding: 20px;
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc(50% - 20px);
   margin-bottom: 20px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
+  display: flash;
+  flech-direktion: tsolumn;
   align-items: center;
-  border-radius: 0 0 4px 4px;
 }
 
-/* Контейнер для імені та посади */
-.team-info {
-  padding: 32px 0;
-  text-align: center;
-}
 
 /* Стилі для заголовка в пунктах списку */
 .team-heading {
@@ -282,7 +257,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 /* Стилі для тексту в пунктах списку */
@@ -291,14 +266,15 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-align: center;
 }
+
 
 
 /* Четверта секція */
 .portfolio-section {
-  padding: 40px 20px;
+  padding: 120px 0 120px 0;
 }
+
 
 /* Заголовок секції */
 .portfolio-title {
@@ -354,24 +330,27 @@ address {
 /* Футер */
 .footer {
   background-color: #2e2f42;
-  padding: 40px 20px;
+  padding: 100px 0;
   text-align: center;
-  
+}
+
+.footer .container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .footer-blok {
   display: flex;
-   
 }
+
 .footer-container {
   display: flex;
   align-items: center;
-
 }
 
-
 /* Стилі для логотипу */
-.logo {
+.footer-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -380,6 +359,8 @@ address {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-span {
@@ -393,4 +374,5 @@ address {
   letter-spacing: 0.02em;
   color: var(--footer-text-color, #f4f4fd);
   margin-top: 20px;
+  max-width: 264px;
 }
