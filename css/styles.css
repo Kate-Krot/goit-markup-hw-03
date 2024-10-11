@@ -163,6 +163,9 @@ address {
   display: flex;
   gap: 24px;
 }
+.strategyli {
+  width: 264px;
+}
 
 /* Стилі заголовків у списку */
 .strategy-heading {
@@ -202,7 +205,6 @@ address {
 .team-list {
   list-style: none;
   padding: 0;
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -214,6 +216,10 @@ address {
   flex-basis: calc(50% - 20px);
   margin-bottom: 20px;
   text-align: center;
+}
+.team-item {
+  display: flex;
+  gap: 24px;
 }
 
 /* Стилі для заголовка в пунктах списку */
