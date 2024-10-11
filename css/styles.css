@@ -8,24 +8,29 @@ a {
   text-decoration: none;
 }
 ul {
-  list-style-type: none;
-  margin-top: 0;
-  margin-bottom: 0;
+  list-style: none;
   padding-left: 0;
+  margin: 0;
 }
-p, h1, h2, h3, {
-  margin-top: 0;
-  margin-bottom: 0; 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
-.img {
+
+img {
   display: block;
 }
 
 .container {
   width: 1158px;
-padding-left: 15px;
-padding-right: 15px;
-margin: 0 auto;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .header {
@@ -201,7 +206,7 @@ address {
   gap: 24px;
 }
 
-.strategyli {
+.visual_ly_list {
   flex-basis: calc((100% - 72px) / 4);
 }
 
