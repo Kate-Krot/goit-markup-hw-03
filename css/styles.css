@@ -29,10 +29,22 @@ align-items: center;
 }
 
 .header {
-  width: 100%;
-  padding: 24px 0;
-  border-bottom: 1px solid #e7e9fc;
-  
+padding-top: 24px;
+padding-bottom: 24px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+.navul {
+  display: flex;
+  gap: 40px;
 }
 
 
@@ -44,53 +56,52 @@ align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px; /* Відступ справа від логотипа */
+  margin-right: 100 px;
   
 }
 
-.nav {
-  display: flex;
-  align-items: center;
-  gap: 40px;
+.logospan {
+  color: #2e2f42; 
 }
 
-.nav-item {
-  padding: 24px 0;
-}
-
-.nav-link {
+.navlink {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-decoration: none;
   margin-left: 20px;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.navlink:hover,
+.navlink:focus {
   color: #404bbf;
 }
 
-/* Контактна інформація */
-.contact-info {
-  display: flex;
-  gap: 40px;
+/* Стилі для контактної інформації */
+.contact-info  {
+  font-style: normal;
 }
 
-.contact-item {
-  margin-right: 20px; /* Відступ між елементами контакту */
-}
-
-.contact-link {
+.contactlink {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
+  text-decoration: none;
+  margin-right: 20px;
+  display: flex;
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.contactlink:hover,
+.contactlink:focus {
   color: #404bbf;
+}
+.navadress {
+  display: flex;
+  margin-left: auto;
+  gap: 40px;
 }
 
 address {
