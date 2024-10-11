@@ -171,22 +171,38 @@ address {
 }
 
 /* Друга секція */
+/* Друга секція */
 .strategy-section {
-  padding: 40px 20px;
+  padding: 120px 0;
   background-color: #ffffff;
-  padding-bottom: 120px;
-  padding-top: 120px;
 }
 
+.strategy-section .container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Прихований заголовок */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
 
 /* Список стратегії */
 .strategy-list {
   display: flex;
   gap: 24px;
 }
+
 .strategyli {
   flex-basis: calc((100% - 72px) / 4);
-
 }
 
 /* Стилі заголовків у списку */
@@ -206,6 +222,7 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 
 /* Третя секція */
 /* Третя секція */
