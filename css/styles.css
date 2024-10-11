@@ -112,6 +112,7 @@ address {
   background-color: #2e2f42;
   text-align: center;
   padding: 40px 20px;
+  margin: 0 auto;
 }
 
 /* Стилі для заголовка */
@@ -123,6 +124,7 @@ address {
   text-align: center;
   margin-bottom: 48px;
   max-width: 496;
+  
 }
 
 /* Стилі для кнопки */
@@ -161,7 +163,7 @@ address {
   gap: 24px;
 }
 .strategyli {
-  width: calc((100% - 3 * 24px)/4);
+  flex-basis: calc((100% - 72px) / 4);
 
 }
 
@@ -187,6 +189,12 @@ address {
 /* Третя секція */
 .team-section {
   background-color: #f4f4fd;
+  
+}
+
+.team-section-ul {
+display: flex;
+gap: 24px;
 }
 
 .headertwo {
@@ -214,11 +222,11 @@ address {
   flex-basis: calc(50% - 20px);
   margin-bottom: 20px;
   text-align: center;
+  display: flash;
+  flech-direktion: tsolumn;
+  align-items: center;
 }
-.team-item {
-  display: flex;
-  gap: 24px;
-}
+
 
 /* Стилі для заголовка в пунктах списку */
 .team-heading {
@@ -257,19 +265,24 @@ address {
 
 /* Список портфоліо */
 .portfolio-list {
-  list-style: none;
-  padding: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  column-gap: 24px;
+  row-gap: 48px;
+  
 }
 
 /* Пункти списку */
 .portfolio-item {
   background-color: #ffffff;
-  flex-basis: calc(50% - 20px);
   margin-bottom: 20px;
   text-align: center;
+  flex-basis: calc((100% - 2 * 24px) / 3);
+}
+
+.portfolio-item-img {
+  margin: 0 auto;
+  display: block;
 }
 
 /* Стилі для заголовків у списку */
@@ -295,7 +308,19 @@ address {
   background-color: #2e2f42;
   padding: 40px 20px;
   text-align: center;
+  
 }
+
+.footer-blok {
+  display: flex;
+   
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+
+}
+
 
 /* Стилі для логотипу */
 .logo {
