@@ -23,9 +23,6 @@ p, h1, h2, h3, {
 padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
-display: flex;
-flex-direction: column;
-align-items: center;
 }
 
 .header {
@@ -164,7 +161,8 @@ address {
   gap: 24px;
 }
 .strategyli {
-  width: 264px;
+  width: calc((100% - 3 * 24px)/4);
+
 }
 
 /* Стилі заголовків у списку */
