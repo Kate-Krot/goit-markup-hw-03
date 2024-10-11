@@ -56,7 +56,7 @@ padding-bottom: 24px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 100 px;
+  margin-right: 76 px;
   
 }
 
@@ -125,6 +125,7 @@ address {
   color: #ffffff;
   text-align: center;
   margin-bottom: 48px;
+  max-width: 496;
 }
 
 /* Стилі для кнопки */
@@ -144,6 +145,8 @@ address {
 .btn-order:hover,
 .btn-order:focus {
   background-color: #404bbf;
+  min-width: 169px;
+  height: 56px;
 }
 
 /* Друга секція */
@@ -157,13 +160,13 @@ address {
 
 /* Список стратегії */
 .strategy-list {
-  display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  display: flex;
+  gap: 24px;
 }
 
 /* Стилі заголовків у списку */
