@@ -176,6 +176,43 @@ address {
 }
 
 /* Друга секція */
+.strategy-section {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+
+/* Список стратегії */
+.strategy-list {
+  display: flex;
+  gap: 24px;
+}
+.strategyli {
+  flex-basis: calc((100% - 72px) / 4);
+
+}
+
+/* Стилі заголовків у списку */
+.strategy-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+/* Стилі параграфів у списку */
+.strategy-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Третя секція */
 /* Container Styles */
 .container {
   width: 90%;
@@ -228,68 +265,6 @@ address {
   font-size: 1em;
   color: #777;
   text-align: center;
-}
-
-
-/* Третя секція */
-/* Третя секція */
-.team-section {
-  background-color: #f4f4fd;
-  
-}
-
-.team-section-ul {
-display: flex;
-gap: 24px;
-}
-
-.headertwo {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-/* Список команди */
-.team-list {
-  list-style: none;
-  padding: 0;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-/* Пункти списку */
-.team-item {
-  background-color: #ffffff;
-  padding: 20px;
-  flex-basis: calc((100% - 72px) / 4)
-  margin-bottom: 20px;
-  text-align: center;
-  display: flash;
-  flech-direktion: tsolumn;
-  align-items: center;
-}
-
-
-/* Стилі для заголовка в пунктах списку */
-.team-heading {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 10px;
-}
-
-/* Стилі для тексту в пунктах списку */
-.team-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
 
 
