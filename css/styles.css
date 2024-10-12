@@ -34,17 +34,18 @@ img {
 a {
   text-decoration: none;
 }
-в button {
+button {
   cursor: pointer;
 }
 
 
-.header {
-    background: #fff;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    border-bottom: 1px solid #e7e9fc;
+.site-header {
+  background: #fff;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
+
 /* ––––––––> HEADER <–––––––– */
 .header-container {
   display: flex;
@@ -62,7 +63,7 @@ a {
   gap: 40px;
 }
 
-.contact {
+.contacts {
   margin-left: auto;
 }
 
@@ -72,8 +73,8 @@ a {
   gap: 40px;
 }
 
-/* Стилі для логотипа та навігації */
 .header-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -83,7 +84,7 @@ a {
   margin-right: 76px;
 }
 
-.logo-span {
+.logo-part {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -113,6 +114,32 @@ a {
 
 .header-menu-link:focus {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contact-link:hover {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+}
+.contact-link:focus {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -232,8 +259,8 @@ a {
   display: flex;
   gap: 24px;
 }
-.strategyli {
-  flex-basis: calc((100% - 72px) / 4);
+.team-item {
+  width: ((100% - 72px) / 4);
 
 }
 
