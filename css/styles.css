@@ -259,8 +259,8 @@ button {
   display: flex;
   gap: 24px;
 }
-.portfolio-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+.vis {
+  width: calc((100% - 72px) / 4);
 }
 
 /* Стилі заголовків у списку */
