@@ -259,7 +259,7 @@ button {
   display: flex;
   gap: 24px;
 }
-.team-item {
+.portfolio-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
