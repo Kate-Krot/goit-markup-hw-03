@@ -4,183 +4,226 @@ body {
   color: #434455;
   background-color: #fff;
 }
-a {
-  text-decoration: none;
-}
 ul {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-left: 0;
-  margin: 0;
 }
-
+p,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-p {
-  margin: 0;
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
-
-img {
-  display: block;
-}
-
 .container {
-  width: 1158px;
-  padding: 0 15px;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
-
-.header {
-  width: 100%;
-  padding: 24px 0;
-  border-bottom: 1px solid #e7e9fc;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+в button {
+  cursor: pointer;
 }
 
+
+.header {
+    background: #fff;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
+}
+/* ––––––––> HEADER <–––––––– */
 .header-container {
   display: flex;
   align-items: center;
 }
 
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.contact {
+  margin-left: auto;
+}
+
+.contact-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 /* Стилі для логотипа та навігації */
-.logo {
+.header-logo {
   font-weight: 700;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
 }
 
-.logospan {
+.logo-span {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #2e2f42;
 }
 
-.nav {
-  display: flex;
-  align-items: center;
-}
-
-.navul {
-  display: flex;
-  gap: 40px;
-}
-
-.nav-item {
-  padding: 24px 0;
-}
-
-.navlink {
+.header-menu-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-decoration: none;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
-.navlink:hover,
-.navlink:focus {
+.header-menu-link:hover {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+}
+
+.header-menu-link:focus {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #404bbf;
 }
 
 /* Контактна інформація */
-.navadress {
-  display: flex;
-  margin-left: auto;
-}
 
-.contact-info {
+
+.contact {
   font-style: normal;
-  display: flex;
-  gap: 40px;
 }
 
-.contact-item {
-  margin-right: 40px;
-}
-
-.contact-item:last-child {
-  margin-right: 0;
-}
-
-.contact-link-contact {
+.contact-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-decoration: none;
-  display: flex;
 }
 
-.contactlink:hover,
-.contactlink:focus {
+.contact-link:hover {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+}
+.contact-link:focus {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #404bbf;
 }
 
-address {
-  font-style: normal;
-}
 
 
 .hero-section {
   background-color: #2e2f42;
-  text-align: center;
-  padding: 188px 0;
-  margin: 0 auto;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  
 }
 
-.hero-section .container {
+.container {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+  
 }
 
 /* Стилі для заголовка */
 .hero-title {
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: #ffffff;
   text-align: center;
-  margin-bottom: 48px;
+  color: #fff;
   max-width: 496px;
+  display: block;
+  margin: 0 auto 48px;
+
 }
 
 /* Стилі для кнопки */
 .btn-order {
-  background-color: var(--btn-bg-color, #4d5ae5);
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  padding: 10px 20px;
-  border: none;
+  color: #fff;
+  background-color: #4d5ae5;
   cursor: pointer;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   display: block;
   margin: 0 auto;
   min-width: 169px;
-  height: 56px;
-  border-radius: 4px;
 }
 
 .btn-order:hover,
 .btn-order:focus {
-  background-color: #404bbf;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: #404bbf;
 }
 
 /* Друга секція */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .strategy-section {
-  padding: 40px 20px;
-  background-color: #ffffff;
-  padding-bottom: 120px;
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 
@@ -329,8 +372,9 @@ address {
 /* Футер */
 .footer {
   background-color: #2e2f42;
-  padding: 100px 0;
-  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
 }
 
 .container footer-container {
@@ -339,41 +383,32 @@ address {
   margin: 0 auto;
 }
 
-.footer-blok {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
-.footer-container {
-  display: flex;
-  align-items: center;
-}
-
-/* Стилі для логотипу */
-.footer-logo-link {
-  font-family: 'Raleway', sans-serif;
+.footer-logo-part {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
-  text-decoration: none;
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
-.logo-span {
   color: #f4f4fd;
 }
-
-/* Стилі для тексту */
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--footer-text-color, #f4f4fd);
-  margin-top: 20px;
+  color: #f4f4fd;
   max-width: 264px;
 }
+
