@@ -260,8 +260,7 @@ button {
   gap: 24px;
 }
 .team-item {
-  width: ((100% - 72px) / 4);
-
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 /* Стилі заголовків у списку */
@@ -362,7 +361,7 @@ button {
   padding: 32px 16px;
 }
 
-.portfolio-title {
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
